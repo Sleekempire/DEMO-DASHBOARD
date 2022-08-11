@@ -1,0 +1,167 @@
+.user {
+  flex: 4;
+}
+
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.userContainer {
+  display: flex;
+  margin-top: 15px;
+}
+
+.userShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #fafafa;
+  box-shadow: 5px 5px 15px 5px #ebe4e4;
+  margin-left: 10px;
+}
+
+.userUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #fafafa;
+  box-shadow: 5px 5px 15px 5px #ebe4e4;
+  margin-right: 3px;
+}
+
+.userShow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userShowImg {
+  width: 50px;
+  height: 70;
+  margin-left: -200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*------  Major John  ------*/
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: -240px;
+}
+
+.userShowUsername {
+  font-weight: 600;
+}
+
+.userShowUserTitle {
+  font-weight: 300;
+}
+
+/*  Account Detials          */
+.userShowBottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+
+.userShowTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  color: #444;
+}
+
+.userShowIcon {
+  font-size: 16px !important;
+}
+
+.userShowInfoTitle {
+  margin-left: 10px;
+}
+
+.userUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.userUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.userUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.userupdateButton {
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+
+.userUpdateIcon {
+  cursor: pointer;
+}
+/*   userUpdateRight  */
+
+.userUpdateImg {
+  width: 110px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: 10px;
+  margin-right: 20px;
+}

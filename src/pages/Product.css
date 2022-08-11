@@ -1,0 +1,138 @@
+.product {
+  flex: 4;
+  padding: 20px;
+}
+
+.productTileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: rgb(0, 255, 191);
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.productTop {
+  display: flex;
+}
+
+.productTopLeft,
+.productTopRight {
+  flex: 1;
+}
+
+.productTopRight {
+  padding: 40px 30px 40px 20px;
+  margin: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #fafafa;
+  box-shadow: 5px 5px 15px 5px #ebe4e4;
+}
+
+.productInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.productName {
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.productInforButtom {
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.productInfoItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productInfoValue {
+  font-weight: 300;
+}
+
+.productBottom {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #fafafa;
+  box-shadow: 5px 5px 15px 5px #ebe4e4;
+}
+
+.productForm {
+  display: flex;
+}
+
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft > label {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.productFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.productFormLeft > select {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.productUploadImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+
+  margin-top: 30px;
+}
+
+.productupLoadLabel {
+  margin: 65px 80px 70px;
+}
+
+.productButton {
+  margin-top: 210px;
+  margin-left: 10px;
+  padding: 4px 50px 4px 50px;
+  border: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: aqua;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.productFormRight {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUpload {
+  display: flex;
+  align-items: center;
+}
